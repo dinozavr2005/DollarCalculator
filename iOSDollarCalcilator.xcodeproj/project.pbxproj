@@ -15,6 +15,9 @@
 		E7CAB18F27B120DB00AAEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB18D27B120DB00AAEC0B /* LaunchScreen.storyboard */; };
 		E7CAB19827B1212F00AAEC0B /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = E7CAB19727B1212F00AAEC0B /* Loaf */; };
 		E7CAB19B27B1216400AAEC0B /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E7CAB19A27B1216400AAEC0B /* MBProgressHUD */; };
+		E7CAB1A127B127EC00AAEC0B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB1A027B127EC00AAEC0B /* SearchTableViewCell.swift */; };
+		E7CAB1A427B138E100AAEC0B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB1A327B138E100AAEC0B /* APIService.swift */; };
+		E7CAB1A727B144CA00AAEC0B /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB1A627B144CA00AAEC0B /* SearchResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		E7CAB18B27B120DB00AAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CAB18E27B120DB00AAEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7CAB19027B120DB00AAEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7CAB1A027B127EC00AAEC0B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		E7CAB1A327B138E100AAEC0B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E7CAB1A627B144CA00AAEC0B /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +66,50 @@
 		E7CAB18127B120D900AAEC0B /* iOSDollarCalcilator */ = {
 			isa = PBXGroup;
 			children = (
+				E7CAB1A527B144A100AAEC0B /* Model */,
+				E7CAB1A227B138CC00AAEC0B /* Service */,
+				E7CAB19F27B127C500AAEC0B /* Controller */,
+				E7CAB19E27B127BC00AAEC0B /* View */,
 				E7CAB18227B120D900AAEC0B /* AppDelegate.swift */,
 				E7CAB18427B120D900AAEC0B /* SceneDelegate.swift */,
-				E7CAB18627B120D900AAEC0B /* SearchTableViewController.swift */,
 				E7CAB18827B120D900AAEC0B /* Main.storyboard */,
 				E7CAB18B27B120DB00AAEC0B /* Assets.xcassets */,
 				E7CAB18D27B120DB00AAEC0B /* LaunchScreen.storyboard */,
 				E7CAB19027B120DB00AAEC0B /* Info.plist */,
 			);
 			path = iOSDollarCalcilator;
+			sourceTree = "<group>";
+		};
+		E7CAB19E27B127BC00AAEC0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB1A027B127EC00AAEC0B /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7CAB19F27B127C500AAEC0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB18627B120D900AAEC0B /* SearchTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7CAB1A227B138CC00AAEC0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB1A327B138E100AAEC0B /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E7CAB1A527B144A100AAEC0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB1A627B144CA00AAEC0B /* SearchResults.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CAB18727B120D900AAEC0B /* SearchTableViewController.swift in Sources */,
+				E7CAB1A427B138E100AAEC0B /* APIService.swift in Sources */,
+				E7CAB1A127B127EC00AAEC0B /* SearchTableViewCell.swift in Sources */,
 				E7CAB18327B120D900AAEC0B /* AppDelegate.swift in Sources */,
+				E7CAB1A727B144CA00AAEC0B /* SearchResults.swift in Sources */,
 				E7CAB18527B120D900AAEC0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
