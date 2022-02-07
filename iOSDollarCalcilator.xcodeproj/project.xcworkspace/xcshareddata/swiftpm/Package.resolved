@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Loaf",
+        "repositoryURL": "https://github.com/schmidyy/Loaf",
+        "state": {
+          "branch": "master",
+          "revision": "ce8059a0c484f4ddf3bc63eb094a2ae7b4d4d0f7",
+          "version": null
+        }
+      },
+      {
+        "package": "MBProgressHUD",
+        "repositoryURL": "https://github.com/jdg/MBProgressHUD",
+        "state": {
+          "branch": "master",
+          "revision": "c843e4c86d320a11552898646effa8000042ab16",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

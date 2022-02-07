@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7CAB18327B120D900AAEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB18227B120D900AAEC0B /* AppDelegate.swift */; };
+		E7CAB18527B120D900AAEC0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB18427B120D900AAEC0B /* SceneDelegate.swift */; };
+		E7CAB18727B120D900AAEC0B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB18627B120D900AAEC0B /* SearchTableViewController.swift */; };
+		E7CAB18A27B120D900AAEC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB18827B120D900AAEC0B /* Main.storyboard */; };
+		E7CAB18C27B120DB00AAEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB18B27B120DB00AAEC0B /* Assets.xcassets */; };
+		E7CAB18F27B120DB00AAEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB18D27B120DB00AAEC0B /* LaunchScreen.storyboard */; };
+		E7CAB19827B1212F00AAEC0B /* Loaf in Frameworks */ = {isa = PBXBuildFile; productRef = E7CAB19727B1212F00AAEC0B /* Loaf */; };
+		E7CAB19B27B1216400AAEC0B /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E7CAB19A27B1216400AAEC0B /* MBProgressHUD */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDollarCalcilator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CAB18227B120D900AAEC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7CAB18427B120D900AAEC0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7CAB18627B120D900AAEC0B /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E7CAB18927B120D900AAEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7CAB18B27B120DB00AAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7CAB18E27B120DB00AAEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7CAB19027B120DB00AAEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7CAB17C27B120D900AAEC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CAB19B27B1216400AAEC0B /* MBProgressHUD in Frameworks */,
+				E7CAB19827B1212F00AAEC0B /* Loaf in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7CAB17627B120D900AAEC0B = {
+			isa = PBXGroup;
+			children = (
+				E7CAB18127B120D900AAEC0B /* iOSDollarCalcilator */,
+				E7CAB18027B120D900AAEC0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CAB18027B120D900AAEC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7CAB18127B120D900AAEC0B /* iOSDollarCalcilator */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB18227B120D900AAEC0B /* AppDelegate.swift */,
+				E7CAB18427B120D900AAEC0B /* SceneDelegate.swift */,
+				E7CAB18627B120D900AAEC0B /* SearchTableViewController.swift */,
+				E7CAB18827B120D900AAEC0B /* Main.storyboard */,
+				E7CAB18B27B120DB00AAEC0B /* Assets.xcassets */,
+				E7CAB18D27B120DB00AAEC0B /* LaunchScreen.storyboard */,
+				E7CAB19027B120DB00AAEC0B /* Info.plist */,
+			);
+			path = iOSDollarCalcilator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7CAB17E27B120D900AAEC0B /* iOSDollarCalcilator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CAB19327B120DB00AAEC0B /* Build configuration list for PBXNativeTarget "iOSDollarCalcilator" */;
+			buildPhases = (
+				E7CAB17B27B120D900AAEC0B /* Sources */,
+				E7CAB17C27B120D900AAEC0B /* Frameworks */,
+				E7CAB17D27B120D900AAEC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDollarCalcilator;
+			packageProductDependencies = (
+				E7CAB19727B1212F00AAEC0B /* Loaf */,
+				E7CAB19A27B1216400AAEC0B /* MBProgressHUD */,
+			);
+			productName = iOSDollarCalcilator;
+			productReference = E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7CAB17727B120D900AAEC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E7CAB17E27B120D900AAEC0B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E7CAB17A27B120D900AAEC0B /* Build configuration list for PBXProject "iOSDollarCalcilator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7CAB17627B120D900AAEC0B;
+			packageReferences = (
+				E7CAB19627B1212F00AAEC0B /* XCRemoteSwiftPackageReference "Loaf" */,
+				E7CAB19927B1216400AAEC0B /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
+			productRefGroup = E7CAB18027B120D900AAEC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7CAB17E27B120D900AAEC0B /* iOSDollarCalcilator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7CAB17D27B120D900AAEC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CAB18F27B120DB00AAEC0B /* LaunchScreen.storyboard in Resources */,
+				E7CAB18C27B120DB00AAEC0B /* Assets.xcassets in Resources */,
+				E7CAB18A27B120D900AAEC0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7CAB17B27B120D900AAEC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CAB18727B120D900AAEC0B /* SearchTableViewController.swift in Sources */,
+				E7CAB18327B120D900AAEC0B /* AppDelegate.swift in Sources */,
+				E7CAB18527B120D900AAEC0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7CAB18827B120D900AAEC0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CAB18927B120D900AAEC0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7CAB18D27B120DB00AAEC0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7CAB18E27B120DB00AAEC0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7CAB19127B120DB00AAEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7CAB19227B120DB00AAEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7CAB19427B120DB00AAEC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27YP7QKF76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSDollarCalcilator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.leadgroup.iOSDollarCalcilator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7CAB19527B120DB00AAEC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27YP7QKF76;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSDollarCalcilator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.leadgroup.iOSDollarCalcilator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7CAB17A27B120D900AAEC0B /* Build configuration list for PBXProject "iOSDollarCalcilator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CAB19127B120DB00AAEC0B /* Debug */,
+				E7CAB19227B120DB00AAEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CAB19327B120DB00AAEC0B /* Build configuration list for PBXNativeTarget "iOSDollarCalcilator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CAB19427B120DB00AAEC0B /* Debug */,
+				E7CAB19527B120DB00AAEC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7CAB19627B1212F00AAEC0B /* XCRemoteSwiftPackageReference "Loaf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/schmidyy/Loaf";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E7CAB19927B1216400AAEC0B /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7CAB19727B1212F00AAEC0B /* Loaf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CAB19627B1212F00AAEC0B /* XCRemoteSwiftPackageReference "Loaf" */;
+			productName = Loaf;
+		};
+		E7CAB19A27B1216400AAEC0B /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7CAB19927B1216400AAEC0B /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E7CAB17727B120D900AAEC0B /* Project object */;
+}
