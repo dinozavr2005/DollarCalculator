@@ -1,0 +1,78 @@
+
+/* Class = "UITextField"; placeholder = "Enter your initial investment amount"; ObjectID = "9d9-gR-wlw"; */
+"9d9-gR-wlw.placeholder" = "Enter your initial investment amount";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "D1t-qg-sgl"; */
+"D1t-qg-sgl.text" = "USD";
+
+/* Class = "UILabel"; text = "Initial investmaent amount"; ObjectID = "Fcc-Ig-rLp"; */
+"Fcc-Ig-rLp.text" = "Initial investmaent amount";
+
+/* Class = "UILabel"; text = "Gain"; ObjectID = "Gki-jf-hql"; */
+"Gki-jf-hql.text" = "Gain";
+
+/* Class = "UILabel"; text = "+100.25"; ObjectID = "JLm-4P-Sxk"; */
+"JLm-4P-Sxk.text" = "+100.25";
+
+/* Class = "UILabel"; text = "December 2021"; ObjectID = "Kf0-uD-Nl6"; */
+"Kf0-uD-Nl6.text" = "December 2021";
+
+/* Class = "UILabel"; text = "Recent"; ObjectID = "Lda-as-l1N"; */
+"Lda-as-l1N.text" = "Recent";
+
+/* Class = "UILabel"; text = "BA"; ObjectID = "OLS-L5-Ze9"; */
+"OLS-L5-Ze9.text" = "BA";
+
+/* Class = "UILabel"; text = "(+10.25%)"; ObjectID = "Q5X-jL-IAI"; */
+"Q5X-jL-IAI.text" = "(+10.25%)";
+
+/* Class = "UILabel"; text = "Annual return"; ObjectID = "USM-PW-LE1"; */
+"USM-PW-LE1.text" = "Annual return";
+
+/* Class = "UILabel"; text = "10.5%"; ObjectID = "aNY-Yo-h8P"; */
+"aNY-Yo-h8P.text" = "10.5%";
+
+/* Class = "UILabel"; text = "The Boeing Company"; ObjectID = "bL5-hJ-YZI"; */
+"bL5-hJ-YZI.text" = "The Boeing Company";
+
+/* Class = "UILabel"; text = "(USD)"; ObjectID = "e9p-OA-bWo"; */
+"e9p-OA-bWo.text" = "(USD)";
+
+/* Class = "UITextField"; placeholder = "Monthly dollar cost averageing amount"; ObjectID = "eBa-vo-Wsf"; */
+"eBa-vo-Wsf.placeholder" = "Monthly dollar cost averageing amount";
+
+/* Class = "UILabel"; text = "investmant amount"; ObjectID = "fVe-9Q-64h"; */
+"fVe-9Q-64h.text" = "investmant amount";
+
+/* Class = "UILabel"; text = "Current Value"; ObjectID = "gvg-e4-UJW"; */
+"gvg-e4-UJW.text" = "Current Value";
+
+/* Class = "UILabel"; text = "5000"; ObjectID = "iWV-tU-tKM"; */
+"iWV-tU-tKM.text" = "5000";
+
+/* Class = "UITextField"; placeholder = "Enter initial date of investment"; ObjectID = "jm4-n8-mZ2"; */
+"jm4-n8-mZ2.placeholder" = "Enter initial date of investment";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "mFe-NE-zYr"; */
+"mFe-NE-zYr.text" = "100";
+
+/* Class = "UILabel"; text = "S&P 500 ETF"; ObjectID = "mwU-WH-cLc"; */
+"mwU-WH-cLc.text" = "S&P 500 ETF";
+
+/* Class = "UILabel"; text = "EQUITY USD"; ObjectID = "nBC-pd-mcF"; */
+"nBC-pd-mcF.text" = "EQUITY USD";
+
+/* Class = "UILabel"; text = "Monthly dollar cost averaging amount"; ObjectID = "nMZ-ds-u9M"; */
+"nMZ-ds-u9M.text" = "Monthly dollar cost averaging amount";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "p5y-2z-vvV"; */
+"p5y-2z-vvV.text" = "USD";
+
+/* Class = "UILabel"; text = "Initial date of investment"; ObjectID = "pNl-nu-ffR"; */
+"pNl-nu-ffR.text" = "Initial date of investment";
+
+/* Class = "UILabel"; text = "SPY"; ObjectID = "q1y-kK-DVF"; */
+"q1y-kK-DVF.text" = "SPY";
+
+/* Class = "UILabel"; text = "(USD)"; ObjectID = "ujB-5O-3oz"; */
+"ujB-5O-3oz.text" = "(USD)";
