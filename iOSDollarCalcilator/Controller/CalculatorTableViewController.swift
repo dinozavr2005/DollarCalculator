@@ -10,6 +10,12 @@ import Combine
 
 class CalculatorTableViewController: UITableViewController {
     
+    @IBOutlet weak var currentValueLabel: UILabel!
+    @IBOutlet weak var investmentAmountLabel: UILabel!
+    @IBOutlet weak var gainLabel: UILabel!
+    @IBOutlet weak var yieldLabel: UILabel!
+    @IBOutlet weak var annualReturnLabel: UILabel!
+    
     @IBOutlet weak var initialInvestmentAnountTextField: UITextField!
     @IBOutlet weak var monthlyDollarCostAveragingTextField: UITextField!
     @IBOutlet weak var initialDateOfInvestmentTextField: UITextField!
@@ -26,6 +32,7 @@ class CalculatorTableViewController: UITableViewController {
     @Published private var monthlyDollarCostAveragingAmount: Int?
     
     private var subscribes = Set<AnyCancellable>()
+    private let dcaService = DCAService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,8 +88,22 @@ class CalculatorTableViewController: UITableViewController {
             self?.monthlyDollarCostAveragingAmount = Int(text) ?? 0
         }).store(in: &subscribes)
         
-        Publishers.CombineLatest3($initialInvestmentAmount, $monthlyDollarCostAveragingAmount, $initialDateOfInvestmantIndex).sink { (initialInvestmentAmount, monthlyDollarCostAveragingAmount, initialDateOfInvestmantIndex) in
-            print(initialInvestmentAmount)
+        Publishers.CombineLatest3($initialInvestmentAmount, $monthlyDollarCostAveragingAmount, $initialDateOfInvestmantIndex).sink { [weak self] (initialInvestmentAmount, monthlyDollarCostAveragingAmount, initialDateOfInvestmantIndex) in
+            
+            guard let initialInvestmentAmount = initialInvestmentAmount,
+                  let monthlyDollarCostAveragingAmount = monthlyDollarCostAveragingAmount,
+                  let initialDateOfInvestmantIndex = initialDateOfInvestmantIndex,
+                  let asset = self?.asset else { return }
+            
+            let result = self?.dcaService.calculate(asset: asset, initialInvestmentAmount: initialInvestmentAmount.doubleValue,
+                                                    monthlyDollarAveragingAmount: monthlyDollarCostAveragingAmount.doubleValue, initialDateOfInvestmentIndex: initialDateOfInvestmantIndex)
+            
+            self?.currentValueLabel.text = result?.currentValue.stringValue
+            self?.investmentAmountLabel.text = result?.investmentAmount.stringValue
+            self?.gainLabel.text = result?.gain.stringValue
+            self?.yieldLabel.text = result?.yield.stringValue
+            self?.annualReturnLabel.text = result?.annualReturn.stringValue
+            
         }.store(in: &subscribes)
     }
     
