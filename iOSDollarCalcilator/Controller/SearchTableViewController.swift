@@ -55,6 +55,7 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
                 } receiveValue: { (searchResults) in
                     self.searchResults = searchResults
                     self.tableView.reloadData()
+                    self.tableView.isScrollEnabled = true
                 }.store(in: &subscribes)
             }.store(in: &subscribes)
         
@@ -75,7 +76,9 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
     }
     
     private func setupTableView() {
+        tableView.isScrollEnabled = false
         tableView.tableFooterView = UIView()
+        
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -113,6 +116,7 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
             self?.hideLoadingAnimation()
             let asset = Asset(searchResult: searchResult, timeSeriesMonthlyAdjusted: timeSeriesMonthlyAdjusted)
             self?.performSegue(withIdentifier: "showCalculator", sender: asset)
+            self?.searchController.searchBar.text = nil
             
         }.store(in: &subscribes)
     }
