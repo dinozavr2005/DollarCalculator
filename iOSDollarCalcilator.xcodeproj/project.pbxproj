@@ -18,6 +18,7 @@
 		E71244DA27D7661A005CA0BB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244D427D7661A005CA0BB /* Double+Extensions.swift */; };
 		E71244DB27D7661A005CA0BB /* UITextfield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244D527D7661A005CA0BB /* UITextfield+Extensions.swift */; };
 		E71244DD27D76627005CA0BB /* CalculatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244DC27D76627005CA0BB /* CalculatorTableViewController.swift */; };
+		E71244E527D89103005CA0BB /* iOSDollarCalcilatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */; };
 		E76C999527B2B4D000259EB0 /* SearchPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C999427B2B4D000259EB0 /* SearchPlaceHolderView.swift */; };
 		E76C999827B2BE9700259EB0 /* UIAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C999727B2BE9700259EB0 /* UIAnimatable.swift */; };
 		E7CAB18327B120D900AAEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB18227B120D900AAEC0B /* AppDelegate.swift */; };
@@ -33,6 +34,16 @@
 		E7CAB1A727B144CA00AAEC0B /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB1A627B144CA00AAEC0B /* SearchResults.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E71244E627D89103005CA0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7CAB17727B120D900AAEC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7CAB17E27B120D900AAEC0B;
+			remoteInfo = iOSDollarCalcilator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E71244C727D76504005CA0BB /* DateSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionTableViewController.swift; sourceTree = "<group>"; };
 		E71244C927D765DB005CA0BB /* DCAService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCAService.swift; sourceTree = "<group>"; };
@@ -45,6 +56,8 @@
 		E71244D427D7661A005CA0BB /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		E71244D527D7661A005CA0BB /* UITextfield+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extensions.swift"; sourceTree = "<group>"; };
 		E71244DC27D76627005CA0BB /* CalculatorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTableViewController.swift; sourceTree = "<group>"; };
+		E71244E227D89103005CA0BB /* iOSDollarCalcilatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDollarCalcilatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDollarCalcilatorTests.swift; sourceTree = "<group>"; };
 		E76C999427B2B4D000259EB0 /* SearchPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceHolderView.swift; sourceTree = "<group>"; };
 		E76C999727B2BE9700259EB0 /* UIAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimatable.swift; sourceTree = "<group>"; };
 		E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDollarCalcilator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E71244DF27D89103005CA0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7CAB17C27B120D900AAEC0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +106,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		E71244E327D89103005CA0BB /* iOSDollarCalcilatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */,
+			);
+			path = iOSDollarCalcilatorTests;
+			sourceTree = "<group>";
+		};
 		E76C999627B2BE1900259EB0 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				E7CAB18127B120D900AAEC0B /* iOSDollarCalcilator */,
+				E71244E327D89103005CA0BB /* iOSDollarCalcilatorTests */,
 				E7CAB18027B120D900AAEC0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */,
+				E71244E227D89103005CA0BB /* iOSDollarCalcilatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +200,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E71244E127D89103005CA0BB /* iOSDollarCalcilatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71244EA27D89103005CA0BB /* Build configuration list for PBXNativeTarget "iOSDollarCalcilatorTests" */;
+			buildPhases = (
+				E71244DE27D89103005CA0BB /* Sources */,
+				E71244DF27D89103005CA0BB /* Frameworks */,
+				E71244E027D89103005CA0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E71244E727D89103005CA0BB /* PBXTargetDependency */,
+			);
+			name = iOSDollarCalcilatorTests;
+			productName = iOSDollarCalcilatorTests;
+			productReference = E71244E227D89103005CA0BB /* iOSDollarCalcilatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E7CAB17E27B120D900AAEC0B /* iOSDollarCalcilator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7CAB19327B120DB00AAEC0B /* Build configuration list for PBXNativeTarget "iOSDollarCalcilator" */;
@@ -201,6 +249,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					E71244E127D89103005CA0BB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E7CAB17E27B120D900AAEC0B;
+					};
 					E7CAB17E27B120D900AAEC0B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -224,11 +276,19 @@
 			projectRoot = "";
 			targets = (
 				E7CAB17E27B120D900AAEC0B /* iOSDollarCalcilator */,
+				E71244E127D89103005CA0BB /* iOSDollarCalcilatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E71244E027D89103005CA0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7CAB17D27B120D900AAEC0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +302,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E71244DE27D89103005CA0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71244E527D89103005CA0BB /* iOSDollarCalcilatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7CAB17B27B120D900AAEC0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +338,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E71244E727D89103005CA0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7CAB17E27B120D900AAEC0B /* iOSDollarCalcilator */;
+			targetProxy = E71244E627D89103005CA0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E7CAB18827B120D900AAEC0B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -290,6 +366,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E71244E827D89103005CA0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27YP7QKF76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.leadgroup.iOSDollarCalcilatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDollarCalcilator.app/iOSDollarCalcilator";
+			};
+			name = Debug;
+		};
+		E71244E927D89103005CA0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27YP7QKF76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.leadgroup.iOSDollarCalcilatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDollarCalcilator.app/iOSDollarCalcilator";
+			};
+			name = Release;
+		};
 		E7CAB19127B120DB00AAEC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -467,6 +581,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E71244EA27D89103005CA0BB /* Build configuration list for PBXNativeTarget "iOSDollarCalcilatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71244E827D89103005CA0BB /* Debug */,
+				E71244E927D89103005CA0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E7CAB17A27B120D900AAEC0B /* Build configuration list for PBXProject "iOSDollarCalcilator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
