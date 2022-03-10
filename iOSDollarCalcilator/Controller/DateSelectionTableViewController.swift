@@ -24,7 +24,7 @@ class DateSelectionTableViewController: UITableViewController {
     }
     
     private func setupNavigation() {
-        title = "Select date"
+        title = "Выберите дату"
     }
     
     private func setupMonthInfos() {
@@ -70,11 +70,13 @@ class DateSelectionTableViewCell: UITableViewCell {
         accessoryType = isSelected ? .checkmark : .none
         
         if index == 1 {
-            monthsAgoLabel.text = "1 month ago"
-        } else if index > 1 {
-            monthsAgoLabel.text = "\(index) month ago"
+            monthsAgoLabel.text = "1 месяц назад"
+        } else if index > 1 && index < 5 {
+            monthsAgoLabel.text = "\(index) месяца назад"
+        } else if index > 4 {
+            monthsAgoLabel.text = "\(index) месяцев назад"
         } else {
-            monthsAgoLabel.text = "Just invested"
+            monthsAgoLabel.text = "В текущем месяце"
         }
     }
 }

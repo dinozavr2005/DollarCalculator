@@ -13,26 +13,31 @@ struct DCAService {
                    initialInvestmentAmount: Double,
                    monthlyDollarCostAveragingAmount: Double,
                    initialDateOfInvestmentIndex: Int) -> DCAResult {
-        
+        // сумма инвестиций
         let investmentAmount = getInvestmentAmount(initialInvestmentAmount: initialInvestmentAmount,
                                                    monthlyDollarCostAveragingAmount: monthlyDollarCostAveragingAmount,
                                                    initialDateOfInvestmentIndex: initialDateOfInvestmentIndex)
-        
+        // последняя цена за акцию
         let latestSharePrice = getLatestSharePrice(asset: asset)
         
+        // количество акций
         let numberOfShares = getNumberOfShares(asset: asset,
                                                initialInvestmentAmount: initialInvestmentAmount,
                                                monthlyDollarCostAveragingAmount: monthlyDollarCostAveragingAmount,
                                                initialDateOfInvestmentIndex: initialDateOfInvestmentIndex)
         
+        // текущая стоимость портфеля
         let currentValue = getCurrentValue(numberOfShares: numberOfShares, latestSharePrice: latestSharePrice)
         
         let isProfitable = currentValue > investmentAmount
         
+        // прибыль
         let gain = currentValue - investmentAmount
         
+        // доходность
         let yield = gain / investmentAmount
         
+        // годовой доход
         let annualReturn = getAnnualReturn(currentValue: currentValue,
                                            investmentAmount: investmentAmount,
                                            initialDateOfInvestmentIndex: initialDateOfInvestmentIndex)

@@ -21,7 +21,7 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
         sc.searchResultsUpdater = self
         sc.delegate = self
         sc.obscuresBackgroundDuringPresentation = false
-        sc.searchBar.placeholder = "Enter a company name or symbol"
+        sc.searchBar.placeholder = "Введите название компании"
         sc.searchBar.autocapitalizationType = .allCharacters
         return sc
     }()
@@ -72,7 +72,7 @@ class SearchTableViewController: UITableViewController, UIAnimatable {
     
     private func setupNavigationBar() {
         navigationItem.searchController = searchController
-        navigationItem.title = "Search"
+        navigationItem.title = "Поиск"
     }
     
     private func setupTableView() {
