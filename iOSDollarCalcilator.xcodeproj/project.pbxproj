@@ -18,7 +18,9 @@
 		E71244DA27D7661A005CA0BB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244D427D7661A005CA0BB /* Double+Extensions.swift */; };
 		E71244DB27D7661A005CA0BB /* UITextfield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244D527D7661A005CA0BB /* UITextfield+Extensions.swift */; };
 		E71244DD27D76627005CA0BB /* CalculatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244DC27D76627005CA0BB /* CalculatorTableViewController.swift */; };
-		E71244E527D89103005CA0BB /* iOSDollarCalcilatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */; };
+		E71244E527D89103005CA0BB /* DCAServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244E427D89103005CA0BB /* DCAServiceTests.swift */; };
+		E71244EC27D90E4A005CA0BB /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244EB27D90E4A005CA0BB /* CalculatorPresenter.swift */; };
+		E71244EE27DA5059005CA0BB /* CalculatorPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71244ED27DA5059005CA0BB /* CalculatorPresenterTests.swift */; };
 		E76C999527B2B4D000259EB0 /* SearchPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C999427B2B4D000259EB0 /* SearchPlaceHolderView.swift */; };
 		E76C999827B2BE9700259EB0 /* UIAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C999727B2BE9700259EB0 /* UIAnimatable.swift */; };
 		E7CAB18327B120D900AAEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB18227B120D900AAEC0B /* AppDelegate.swift */; };
@@ -57,7 +59,9 @@
 		E71244D527D7661A005CA0BB /* UITextfield+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extensions.swift"; sourceTree = "<group>"; };
 		E71244DC27D76627005CA0BB /* CalculatorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorTableViewController.swift; sourceTree = "<group>"; };
 		E71244E227D89103005CA0BB /* iOSDollarCalcilatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDollarCalcilatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDollarCalcilatorTests.swift; sourceTree = "<group>"; };
+		E71244E427D89103005CA0BB /* DCAServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAServiceTests.swift; sourceTree = "<group>"; };
+		E71244EB27D90E4A005CA0BB /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		E71244ED27DA5059005CA0BB /* CalculatorPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenterTests.swift; sourceTree = "<group>"; };
 		E76C999427B2B4D000259EB0 /* SearchPlaceHolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceHolderView.swift; sourceTree = "<group>"; };
 		E76C999727B2BE9700259EB0 /* UIAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimatable.swift; sourceTree = "<group>"; };
 		E7CAB17F27B120D900AAEC0B /* iOSDollarCalcilator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDollarCalcilator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +113,8 @@
 		E71244E327D89103005CA0BB /* iOSDollarCalcilatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				E71244E427D89103005CA0BB /* iOSDollarCalcilatorTests.swift */,
+				E71244E427D89103005CA0BB /* DCAServiceTests.swift */,
+				E71244ED27DA5059005CA0BB /* CalculatorPresenterTests.swift */,
 			);
 			path = iOSDollarCalcilatorTests;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				E7CAB1A327B138E100AAEC0B /* APIService.swift */,
 				E71244C927D765DB005CA0BB /* DCAService.swift */,
 				E71244CD27D76600005CA0BB /* TimeSeriesMonthlyAdjusted.swift */,
+				E71244EB27D90E4A005CA0BB /* CalculatorPresenter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -306,7 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E71244E527D89103005CA0BB /* iOSDollarCalcilatorTests.swift in Sources */,
+				E71244EE27DA5059005CA0BB /* CalculatorPresenterTests.swift in Sources */,
+				E71244E527D89103005CA0BB /* DCAServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 				E76C999827B2BE9700259EB0 /* UIAnimatable.swift in Sources */,
 				E7CAB1A427B138E100AAEC0B /* APIService.swift in Sources */,
 				E71244CC27D765FA005CA0BB /* Asset.swift in Sources */,
+				E71244EC27D90E4A005CA0BB /* CalculatorPresenter.swift in Sources */,
 				E71244DA27D7661A005CA0BB /* Double+Extensions.swift in Sources */,
 				E71244D927D7661A005CA0BB /* Date+Extansions.swift in Sources */,
 				E76C999527B2B4D000259EB0 /* SearchPlaceHolderView.swift in Sources */,
@@ -530,9 +538,11 @@
 				DEVELOPMENT_TEAM = 27YP7QKF76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSDollarCalcilator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Инвестиции";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -559,9 +569,11 @@
 				DEVELOPMENT_TEAM = 27YP7QKF76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSDollarCalcilator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Инвестиции";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
